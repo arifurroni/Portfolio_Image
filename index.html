@@ -6,19 +6,51 @@
     <title>Portfolio Images</title>
 
     <style>
-        div {
+        #pngImage {
+            margin: 50px 200px;
+        }
+
+        #jpgImage {
+            margin: 50px 200px;
+        }
+
+        #pngImage img {
             height: 300px;
+            /* margin-left: 200px; */
+        }
+
+        #jpgImage img {
+            height: 300px;
+            /* margin-left: 200px; */
+        }
+
+        button {
+            background: #1e0089;
+            color: white;
+            border-radius: 10px;
+            padding: 5px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
-    <div>
+    <div id="pngImage">
+        <h2>Md. Arifur Rahman - (.png Image)</h2>
         <img src="./Arifur_Rahman_Portfolio_Picture.png" alt="Arifur Rahman Portfolio Picture.png">
+
+        <a href="./Arifur_Rahman_Portfolio_Picture.png" download>
+            <button>Download Image</button>
+        </a>
     </div>
 
-    <div>
+    <div id="jpgImage">
+        <h2>Md. Arifur Rahman - (.jpg Image)</h2>
         <img src="./Arifur_Rahman_Portfolio_Picture.jpg" alt="Arifur Rahman Portfolio Picture.jpg">
+
+        <a href="./Arifur_Rahman_Portfolio_Picture.jpg" download>
+            <button>Download Image</button>
+        </a>
     </div>
     
 </body>
